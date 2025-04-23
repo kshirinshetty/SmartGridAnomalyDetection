@@ -155,17 +155,7 @@ for i in range(1, 8):
 # Concatenate all training and testing data
 training_df = pd.concat(training_data, ignore_index=True)
 testing_df = pd.concat(testing_data, ignore_index=True)
-'''
-# Save the concatenated datasets
-training_df.to_csv('processed/preTRAINING.csv', index=False)
-testing_df.to_csv('processed/preTESTING.csv', index=False)
 
-
-shuffled_training_df = pd.read_csv('processed/preTRAINING.csv')
-shuffled_testing_df = pd.read_csv('processed/preTESTING.csv')
-
-print("Shuffling now. ")
-'''
 # Shuffle the datasets
 training_df.sample(frac=1, random_state=69).to_csv('processed/TRAINING.csv', index=False)
 testing_df.sample(frac=1, random_state=69).to_csv('processed/TESTING.csv', index=False)
