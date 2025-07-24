@@ -6,7 +6,7 @@ Smart grids require fast, accurate, and explainable fault detection to maintain 
 ## Project Objective
 This project aims to build an autoencoder-based anomaly detection system that identifies faults using simulated smart grid sensor data. Additionally, it incorporates an Explainable AI (XAI) technique to provide insights into why anomalies are detected, enhancing fault diagnosis and transparency.
 
----
+----
 
 ## Technologies & Tools
 
@@ -32,7 +32,7 @@ This project aims to build an autoencoder-based anomaly detection system that id
   - Detected anomalies.
   - XAI outputs to explain fault predictions.
 
----
+----
 
 ## Features
 - Simulated smart grid environment.
